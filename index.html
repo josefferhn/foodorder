@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		
+		<section class="panel panel-left panel-cover">
+		
+			<div id="panel-profile" class="block">
+			
+				<div class="card">				
+					<div class="card-content">
+						<div class="row">
+							<article class="col-30">
+								<img src="img/profile.jpg" alt="" class="img-fluid">
+							</article>
+							<article class="col-70">
+								<h4>Braxton Stark</h4>
+								<p>braxton.stark@gmail.com</p>
+							</article>
+						</div>					
+					</div>				
+				</div>
+			
+			</div>
+			
+			<div id="panel-nav" class="block">
+			
+				<div class="list media-list">
+					<ul>
+						<li>
+						  <a href="/home/" class="item-link item-content panel-close">
+							<div class="item-media"><i class="material-icons">home</i></div>
+							<div class="item-inner">
+							  <div class="item-title">Home</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="/categories/" class="item-link item-content panel-close">
+							<div class="item-media"><i class="material-icons">format_list_bulleted</i></div>
+							<div class="item-inner">
+							  <div class="item-title">Categories</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="#" class="item-link item-content">
+							<div class="item-media"><i class="material-icons">favorite</i></div>
+							<div class="item-inner">
+							  <div class="item-title">Favorites</div>
+							</div>
+						  </a>
+						</li>
+						<li>
+						  <a href="#" class="item-link item-content">
+							<div class="item-media"><i class="material-icons">shopping_bag</i></div>
+							<div class="item-inner">
+							  <div class="item-title">My Orders</div>
+							</div>
+						  </a>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+		
+		</section>
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+					<div class="title">Food Order
+					</div>
+					<div class="right">
+						<a href="#" class="link">
+							<span class="material-icons">account_circle</span>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  
+				  <div class="row">
+				  
+					  <article class="col-60">
+					  	<h2 class="block-title block-title-medium">Popular Item</h2>
+					  </article>
+					  <article class="col-40 text-align-right">
+					  	<h2 class="block-title"><a href="/categories/">See all</a></h2>
+					  </article>
+				  
+				  </div>
+				  
+				  <div class="block">
+				  
+					  <div class="row">
+					  
+						  <article class="col-50">
+						  	<div class="card card-product">
+							  <div class="card-content">
+								<img src="img/big-tasty.png" alt="" class="img-fluid">
+								  <h4>Beef Burger</h4>
+								  <p>Cheesy Mozzarella</p>
+							  </div>
+							  <div class="card-footer">
+								<span class="price">$7.90</span>
+								<a href="/bigmac/" class="link">
+									<span class="material-icons">add_box</span>
+								</a>
+							  </div>
+							</div>
+						  </article>
+						  
+						  <article class="col-50">
+						  	<div class="card card-product">
+							  <div class="card-content">
+								<img src="img/bigmac.png" alt="" class="img-fluid">
+								  <h4>Big Mac</h4>
+								  <p>Cheesy Mozzarella</p>
+							  </div>
+							  <div class="card-footer">
+								<span class="price">$7.90</span>
+								<a href="/bigmac/" class="link">
+									<span class="material-icons">add_box</span>
+								</a>
+							  </div>
+							</div>
+						  </article>
+					  
+					  </div>
+				  
+				  </div>
+				   
+				  <div class="row">
+				  
+					  <article class="col-60">
+					  	<h2 class="block-title block-title-medium">Recommend Item</h2>
+					  </article>
+					  <article class="col-40 text-align-right">
+					  	<h2 class="block-title"><a href="#">See all</a></h2>
+					  </article>
+				  
+				  </div>
+				  
+				  <div id="recommend" class="block">
+					  
+					  
+						<div class="swiper-container swiper-init" data-space-between="40" data-slides-per-view="1" data-centered-slides="true">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="card card-product">					  
+									  <div class="card-content">
+
+										  <div class="row">
+											  <article class="col-40">
+												<img src="img/apple-pie.png" alt="" class="img-fluid">
+											  </article>
+											  <article class="col-60">
+												<h4>Apple Pie</h4>
+												<p>Dessert</p>
+												<p class="price">$4.70</p>
+												<a href="/bigmac/" class="link">
+													<span class="material-icons">add_box</span>
+												</a>
+											  </article>
+										  </div>
+
+									  </div><!-- content-->					  
+					  				</div><!-- card-->
+								</div><!-- slide-->
+								
+								<div class="swiper-slide">
+									<div class="card card-product">					  
+									  <div class="card-content">
+
+										  <div class="row">
+											  <article class="col-40">
+												<img src="img/chickenburger.png" alt="" class="img-fluid">
+											  </article>
+											  <article class="col-60">
+												<h4>Chicken Burger</h4>
+												<p>Chicken</p>
+												<p class="price">$3.70</p>
+												<a href="/bigmac/" class="link">
+													<span class="material-icons">add_box</span>
+												</a>
+											  </article>
+										  </div>
+
+									  </div><!-- content-->				  
+								  </div><!-- card-->
+								</div><!-- slide-->
+								
+								<div class="swiper-slide">
+									<div class="card card-product">					  
+									  <div class="card-content">
+
+										  <div class="row">
+											  <article class="col-40">
+												<img src="img/bigmac-bacon.png" alt="" class="img-fluid">
+											  </article>
+											  <article class="col-60">
+												<h4>Big Mac Bacon</h4>
+												<p>Hamburger</p>
+												<p class="price">$6.70</p>
+												<a href="/bigmac/" class="link">
+													<span class="material-icons">add_box</span>
+												</a>
+											  </article>
+										  </div>
+
+									  </div><!-- content-->				  
+								  </div><!-- card-->
+								</div><!-- slide-->
+								
+							</div><!-- wrapper-->
+						</div><!-- slide container-->
+				  
+					  
+				  
+				  </div><!-- #recommend-->
+				    
+				  
+			  </section> <!--/page-content -->
+
+			</section> <!--/page -->
+			
+			
+			<div class="toolbar toolbar-bottom ">
+				<div class="toolbar-inner">
+				  <a href="/home/" class="link"><i class="material-icons">home</i></a>
+				  <a href="/categories/" class="link"><i class="material-icons">local_offer</i></a>
+				  <a href="#" class="link"><i class="material-icons">shopping_basket</i></a>
+				  <a href="#" class="link"><i class="material-icons">notifications</i></a>
+				  <a href="#" class="link"><i class="material-icons">account_circle</i></a>
+				</div>
+			</div>
+			
+		</div><!--/view -->
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
